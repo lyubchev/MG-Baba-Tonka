@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset='UTF-8'><meta name='viewport' content='width=device-width initial-scale=1'>
-<title></title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
+<title>Analiz na nauchen teskt</title><style type='text/css'>html {overflow-x: initial !important;}:root { --bg-color:#ffffff; --text-color:#333333; --select-text-bg-color:#B5D6FC; --select-text-font-color:auto; --monospace:"Lucida Console",Consolas,"Courier",monospace; }
 html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
 body { margin: 0px; padding: 0px; height: auto; bottom: 0px; top: 0px; left: 0px; right: 0px; font-size: 1rem; line-height: 1.42857; overflow-x: hidden; background: inherit; }
 iframe { margin: auto; }
@@ -146,6 +146,79 @@ iframe { max-width: 100%; width: 100%; border: none; }
 .highlight td, .highlight tr { border: 0px; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow-y: hidden; overflow-x: auto; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 30px; z-index: 3; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; word-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { word-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; left: 0px; right: 0px; top: 0px; bottom: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 @font-face { font-family: HKGrotesk; src: url("./minimalism/HKGrotesk-Light.eot?#iefix") format("embedded-opentype"), url("./minimalism/HKGrotesk-Light.woff") format("woff"), url("./minimalism/HKGrotesk-Light.ttf") format("truetype"), url("./minimalism/HKGrotesk-Light.svg#HKGrotesk-Light") format("svg"); font-style: normal; font-weight: 300; }
 @font-face { font-family: HKGrotesk; src: url("./minimalism/HKGrotesk-LightItalic.eot?#iefix") format("embedded-opentype"), url("./minimalism/HKGrotesk-LightItalic.woff") format("woff"), url("./minimalism/HKGrotesk-LightItalic.ttf") format("truetype"), url("./minimalism/HKGrotesk-LightItalic.svg#HKGrotesk-LightItalic") format("svg"); font-style: italic; font-weight: 300; }
 @font-face { font-family: HKGrotesk; src: url("./minimalism/HKGrotesk-Regular.eot?#iefix") format("embedded-opentype"), url("./minimalism/HKGrotesk-Regular.woff") format("woff"), url("./minimalism/HKGrotesk-Regular.ttf") format("truetype"), url("./minimalism/HKGrotesk-Regular.svg#HKGrotesk-Regular") format("svg"); font-style: normal; font-weight: normal; }
@@ -246,6 +319,12 @@ header, .context-menu, .megamenu-content, footer { font-family: HKGrotesk, sans-
 </style>
 </head>
 <body class='typora-export' >
-<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>Хамлет</h1><h2><a name='header-n6' class='md-header-anchor '></a>Сбит преразказ</h2><p>Действието се развива в замък Елсинор, убит е кралят Хамлет, а неговото място е заедо от брат му Клавдий, който се жени за вдовицата Гертруда. Клавдий не се жени за Гертруда от любов, а за да заеме мястото на починалия си брат и така да се добере до властта. По това време Хамлет синът на кралят и Гертруда е студент във Витенберг и се връща в двореца след смъртта на баща си, той тр да заема мястото на баща си, защото е негов законен наследник, обаче чичото сключва с Гертруда и така измества младия Хамлет. По време на една от разходките в градината на замъка се явява призрака на собствения му баща и той му казва, че е бил убит от брат си. Хамлет тр да отмъсти за убийството на собствения си баща, да върне за тази първа кръв. Но той не взема категорично решение, потресен е от жестокоста на чичо си. Затова решава да направи нещо друго - нещо хитро. Преструва се на луд и на идиот, за да се предпази ако евентуално искат да убият и него. В двореца пристига група актьори на които Хамлет поръчва да изиграят пиеса, чиито сюжет наподобява извършеното убийство. Той иска да разбере базирано на реакцията на Клавдий, дали призракът казва истината. Краля прекъсва пиесата и гневно излиза, което показва че духът не лъже. Следва разправа м-у Хамлет и майка му, а зад завесата има човек, който подслушва. Хамлет смята, че е Клавдий, но се оказва Полоний - бащата на Офелия. Хамлет го пронизва със шпагата. Неговия чичо иска да го отдалечи от себе си и то възможно най-бързо. За тази цел Клавдий изпраща Хамлет в Англия, където Розенкрац и Гилдерстерн тр. да го убият. Докато се преструва на луд наранява Офелия. Хамлет трябва да направи отдалечаване от любимата си именно, защото когато някои иска да те нарани, той ще те нарани най-силно, когато нарани някой твой близък. Хамлет успява да се освободи от 2мата които са наети да го убият и се завръща в кралския дворец. Когато се връща разбира, че Офелия се е одавила. Така брат и Лаерт се превръща в нов враг на Хамлет и иска да отмъсти за смърта на сестра си за тази цел Клавдий организира дуел м-у Хамлет и Лаерт, тъй като той иска да се отърве от него. Случва се обратното - Хамлет убива Лаерт, но е ранен от отровната шпага намазана с отрова от Лаерт. Клавдий обаче е доста придвидлив. Той допуска и друг вариант. Хамлет може и да победи и той предвижда и този ход, затова приготвя чаша с отрова, която да изпие и така Клавдйи да убие Хамлет. Лаерт е убит, Хамлет е ранен, но успява да убия чичо си пред всички преди да умре. Кралицата е съсипана, отпива от отровата, без изобщо да подозира какво има в тази чаша, която съответно е предназначена за нейния син и умира. Няма победители. Фортинбрас се появява и престола става него.</p></div>
+<div  id='write'  class = 'is-node'><h1><a name='header-n0' class='md-header-anchor '></a>Анализ на научен текст</h1><p>Жизнени процеси при многоклетъчните. 
+Хранене. Хранене на растенията
+Процесите, които осигуряват живота на организмите (бактерии, гъби, растения, животни, човек), се наричат жизнени процеси. Това са храненето, дишането, отделянето, растежът и развитието, размножаването, дразнимостта и движението.
+Храненето е основен жизнен процес. Той осигурява вещества и енергия за клетките и за организмите като цяло. Храненето бива два типа: самостойно и несамостойно.
+Растенията са прикрепени организми. Корените им са разположени в почвата. От нея те смукват вода с разтворени минерални вещества. Листата на растенията имат голяма повърхност. Чрез устицата – малки отворчета по тях, въздухът навлиза във вътрешността им. Както знаете, в състава на въздуха участват и газовете въглероден диоксид и кислород. 
+Растенията преработват приетитите от околната среда вещества, което може да се докаже чрез опити. На светло в зелените листа с помощта на хлорофила се образува скорбяла (нишесте). Скорбялата е въглехидрат. В затъмнените части на листа не се образува такова вещество. 
+Когато са налице всички необходими условия, в листа протича много сложен процес на самостойно хранене: от въглероден диоксид и вода, под действието на светлина и участието на хлорофил се образуват въглехидрати и се отделя кислород. Този процес се нарича фотосинтеза (от гръцки език фотос – светлина, и синтезис – съединение). </p><ul><li><p><strong>1. Тема на текста</strong></p><ul><li>Жизнени процеси при многоклетъчните.</li></ul></li><li><p><strong>2. Подтеми</strong></p><ul><li>Хранене.</li><li>Хранене на растенията.</li></ul></li><li><p><strong>3. Увод заключение на уроч. статия</strong></p><p><strong>Увод:</strong></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> Процесите, които осигуряват живота на организмите (бактерии, гъби, растения, животни, човек), се наричат жизнени процеси. Това са храненето, дишането, отделянето, растежът и развитието, размножаването, дразнимостта и движението.</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 140px;"></div><div class="CodeMirror-gutters" style="display: none; height: 140px;"></div></div></div></pre><p><strong>Заключение:</strong> няма </p></li><li><p><strong>4. Освновните термини</strong></p><ul><li>Жизнени процеси</li><li>Хранене</li><li>Хранителни вещества</li></ul></li><li><p><strong>5. Видове изречение по състав: прости, сложни съчинителни</strong></p><p><strong>Прости:</strong> Използват се при кратко съобщаване на факти</p><p><strong>Пример:</strong></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> Растенията са прикрепени организми.</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 28px;"></div><div class="CodeMirror-gutters" style="display: none; height: 28px;"></div></div></div></pre><p><strong>Сложни:</strong> Най-често при даване на примери</p><p><strong>Пример:</strong></p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">Когато са налице всички необходими условия, в листа протича много сложен процес на самостойно хранене: от въглероден диоксид и вода, под действието на светлина и участието на хлорофил се образуват въглехидрати и се отделя кислород.</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 140px;"></div><div class="CodeMirror-gutters" style="display: none; height: 140px;"></div></div></div></pre><p>    </p></li><li><p><strong>6. Залог на глаголите</strong></p><p><strong>Главно се използва:</strong> деятелен залог</p><p>Пример: </p><pre spellcheck="false" class="md-fences md-end-block ty-contain-cm modeLoaded" lang=""><div class="CodeMirror cm-s-inner CodeMirror-wrap" lang=""><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 0px; left: 4px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"> Растенията преработват приетитите от околната среда вещества, което може да се докаже чрез опити.</span></pre></div></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 56px;"></div><div class="CodeMirror-gutters" style="display: none; height: 56px;"></div></div></div></pre></li></ul><ul><li><p><strong>7. Глагол на време</strong></p><p>сегашно време – за означаване на събития, които протичат в момента на говоренето; за означаване на общовалидни действия; за означаване на минали действия, които се представят като сегашни</p></li></ul></div>
 </body>
 </html>
