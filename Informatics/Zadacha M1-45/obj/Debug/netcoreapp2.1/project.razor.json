@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/Zadacha M1-45.csproj",
+  "TargetFramework": "netcoreapp2.1",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

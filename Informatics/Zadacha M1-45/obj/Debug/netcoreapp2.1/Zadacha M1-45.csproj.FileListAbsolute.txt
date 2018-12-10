@@ -1,0 +1,11 @@
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/bin/Debug/netcoreapp2.1/Zadacha M1-45.deps.json
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/bin/Debug/netcoreapp2.1/Zadacha M1-45.runtimeconfig.json
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/bin/Debug/netcoreapp2.1/Zadacha M1-45.runtimeconfig.dev.json
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/bin/Debug/netcoreapp2.1/Zadacha M1-45.dll
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/bin/Debug/netcoreapp2.1/Zadacha M1-45.pdb
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/obj/Debug/netcoreapp2.1/Zadacha M1-45.csprojAssemblyReference.cache
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/obj/Debug/netcoreapp2.1/Zadacha M1-45.csproj.CoreCompileInputs.cache
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/obj/Debug/netcoreapp2.1/Zadacha M1-45.AssemblyInfoInputs.cache
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/obj/Debug/netcoreapp2.1/Zadacha M1-45.AssemblyInfo.cs
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/obj/Debug/netcoreapp2.1/Zadacha M1-45.dll
+/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-45/obj/Debug/netcoreapp2.1/Zadacha M1-45.pdb
