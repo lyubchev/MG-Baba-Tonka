@@ -1,0 +1,11 @@
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/obj/Debug/netcoreapp2.2/2D Array challenge.csprojAssemblyReference.cache
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/obj/Debug/netcoreapp2.2/2D Array challenge.csproj.CoreCompileInputs.cache
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/obj/Debug/netcoreapp2.2/2D Array challenge.AssemblyInfoInputs.cache
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/obj/Debug/netcoreapp2.2/2D Array challenge.AssemblyInfo.cs
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/bin/Debug/netcoreapp2.2/2D Array challenge.deps.json
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/bin/Debug/netcoreapp2.2/2D Array challenge.runtimeconfig.json
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/bin/Debug/netcoreapp2.2/2D Array challenge.runtimeconfig.dev.json
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/bin/Debug/netcoreapp2.2/2D Array challenge.dll
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/bin/Debug/netcoreapp2.2/2D Array challenge.pdb
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/obj/Debug/netcoreapp2.2/2D Array challenge.dll
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array challenge/obj/Debug/netcoreapp2.2/2D Array challenge.pdb
