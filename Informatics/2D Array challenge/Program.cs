@@ -7,13 +7,14 @@ namespace _2D_Array_challenge
         static void Main(string[] args)
         {
             int[,] pattern = {
-         { 1, 2 },
-         { 5, 2 },
+         { 1, 1, 1},
+         { 1, 5, 0 },
+         { 1, 0, 0 },
      };
             int[,] containsPattern = {
-         { 0, 0, 0, 1 },
-         { 1, 1, 0, 1 },
-         { 1, 1, 0, 1 },
+         { 0, 1, 1, 1 },
+         { 1, 1, 5, 0 },
+         { 1, 1, 0, 0 },
      };
             int[,] lacksPattern = {
          { 1, 1, 0 },
@@ -47,6 +48,12 @@ namespace _2D_Array_challenge
                     {
                         for (int py = 0; py < patternHeight; py++)
                         {
+                            // avoid 0 at pattern
+                            // if (pattern[px][py] == 0)
+                            // {
+                            //     continue;
+                            // }
+
                             // If there is any item in pattern that doesn't
                             // match the array, stop, it's not a match.
                             if (pattern[px, py] != arr[tx + px, ty + py])
