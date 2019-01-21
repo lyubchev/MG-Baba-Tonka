@@ -26,6 +26,7 @@ namespace _2D_Array_challenge
             Console.WriteLine(ContainsPattern(lacksPattern, pattern)); // false
 
         }
+
         static bool ContainsPattern(int[,] arr, int[,] pattern)
         {
             int patternWidth = pattern.GetLength(0);
