@@ -49,12 +49,6 @@ namespace _2D_Array_challenge
                     {
                         for (int py = 0; py < patternHeight; py++)
                         {
-                            // avoid 0 at pattern
-                            // if (pattern[px][py] == 0)
-                            // {
-                            //     continue;
-                            // }
-
                             // If there is any item in pattern that doesn't
                             // match the array, stop, it's not a match.
                             if (pattern[px, py] != arr[tx + px, ty + py])
