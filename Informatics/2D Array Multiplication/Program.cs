@@ -1,9 +1,11 @@
-﻿using System;
+﻿// izpolzvame sistemata
+using System;
 
 namespace _2D_Array_Multiplication
 {
     class Program
     {
+        // entry tochkata na programata ni
         static void Main(string[] args)
         {
             double[,] arrA = {
@@ -16,39 +18,61 @@ namespace _2D_Array_Multiplication
          { 10},{15},{5},
      };
 
+            // Poluchavame proizvedenieto ot 2te matrici
             double[,] product = UmnojiDvuizmerniteMasivi(arrA, arrB);
 
+            // Ako proizedenieto ni e "null" tova oznachava che input-a e bil nevaliden
             if (product != null)
             {
+                // Printirame purvata matrica
                 PrintMatrix(arrA);
+                // pravim nov red
                 Console.WriteLine();
+                // izvejdame simvola zvezdichka - "*"
                 Console.WriteLine("*");
+                // pravim nov red
                 Console.WriteLine();
+                // pravim nod red
                 Console.WriteLine();
+                // printirame vtorata matrica
                 PrintMatrix(arrB);
+                // pravim nov red
                 Console.WriteLine();
+                // izvejdame simvola ravno - "="
                 Console.WriteLine("=");
+                // pravim nov red
                 Console.WriteLine();
+                // pravim nov red
                 Console.WriteLine();
+                // printirame proizvedenieto na dvete matrici
                 PrintMatrix(product);
             }
         }
 
+        // Definirame funkciqta PrintMatrix koito priema matrica, kato posle q printira
         static void PrintMatrix(double[,] arr)
         {
-            int rowLength = arr.GetLength(0);
-            int colLength = arr.GetLength(1);
+            // Vzemame borq na redovete ot matricata
+            int rows = arr.GetLength(0);
+            // Vzemame borq na kolonite ot matricata
+            int cols = arr.GetLength(1);
 
-            for (int i = 0; i < rowLength; i++)
+            // Zapochvame cikul koito shte produlji obshtiq broi na redovete
+            for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < colLength; j++)
+
+                // Zapochvame cikul koito shte produlji obshtiq broi na kolonite
+                for (int j = 0; j < cols; j++)
                 {
+                    // izvejdame vseki element
                     Console.Write(string.Format("{0} ", arr[i, j]));
                 }
+                // izvejdame nov red
                 Console.Write(Environment.NewLine + Environment.NewLine);
             }
         }
 
+        // Definirame funkciqta UmnojiDvuizmerniteMasivi, koqto priema 2 matrici i vrushta proizvedenieto im
         static double[,] UmnojiDvuizmerniteMasivi(double[,] arrA,
   double[,] arrB)
         {
@@ -62,16 +86,25 @@ namespace _2D_Array_Multiplication
             // Matrici mojem da umnojavame samo togava kogato obshtiq broi kolonki na matrica1 e raven
             // na obshtiq broi redove ot matrica2 (poglednet gore v definiciqta zashto tova trqbva da e izpulneno)
 
+            // vzemame broq na redovete ot arrA s metoda GetLength
             int rowsA = arrA.GetLength(0);
+            // vzemame broq na kolonite ot arrA s metoda GetLength
             int colsA = arrA.GetLength(1);
+            // vzemame broq na redovte ot arrB s metoda GetLength
             int rowsB = arrB.GetLength(0);
+            // vzemame broq na kolonite ot arrB s metoda GetLength
             int colsB = arrB.GetLength(1);
 
             // Po definiciq kolonite ot purviq mnojitel trqbva da sa ravni s broq na redovte ot
             // vtoriq mnojitel
+
+            // proverqvame za neravenstvo
             if (colsA != rowsB)
             {
+                // izkravame greshka na potrebitelq
                 Console.WriteLine("Nevalidni dvuizmerni masivi, kolonite na masivA trqbva da sa ravni s redovte na masivB");
+
+                // vrushtame null
                 return null;
             }
 
@@ -88,6 +121,7 @@ namespace _2D_Array_Multiplication
                 // ot kolonata na matrica2 => shte trqbva da preminim prez vseki element ot kolonite na vtoriq masiv
                 for (int colsBJ = 0; colsBJ < colsB; ++colsBJ)
                 {
+                    //pravim promenliva sum s intial value = 0
                     double sum = 0;
 
                     // 3. Tuk v posledniq cikul se izvurshva samoto umnojenie tui kato vseki red zaedno s vsqka kolono se umnojavat
@@ -97,9 +131,11 @@ namespace _2D_Array_Multiplication
                         // tova se dobavq kato suma (po definiciq taka se umnojavat matrici)
                         sum += arrA[rowsAI, colsAK] * arrB[colsAK, colsBJ];
                     }
+                    // setvame stoinosta pri x = rowsAI i y=colsBJ da e ravna na sum
                     product[rowsAI, colsBJ] = sum;
                 }
             }
+            // vrushtame matrica
             return product;
         }
     }
