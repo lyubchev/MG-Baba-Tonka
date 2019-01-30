@@ -1,0 +1,11 @@
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/bin/Debug/netcoreapp2.2/Zadacha M1-36.deps.json
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/bin/Debug/netcoreapp2.2/Zadacha M1-36.runtimeconfig.json
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/bin/Debug/netcoreapp2.2/Zadacha M1-36.runtimeconfig.dev.json
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/bin/Debug/netcoreapp2.2/Zadacha M1-36.dll
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/bin/Debug/netcoreapp2.2/Zadacha M1-36.pdb
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/Debug/netcoreapp2.2/Zadacha M1-36.csprojAssemblyReference.cache
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/Debug/netcoreapp2.2/Zadacha M1-36.csproj.CoreCompileInputs.cache
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/Debug/netcoreapp2.2/Zadacha M1-36.AssemblyInfoInputs.cache
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/Debug/netcoreapp2.2/Zadacha M1-36.AssemblyInfo.cs
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/Debug/netcoreapp2.2/Zadacha M1-36.dll
+/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/Debug/netcoreapp2.2/Zadacha M1-36.pdb

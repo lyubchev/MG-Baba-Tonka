@@ -553,11 +553,12 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -687,21 +688,17 @@
     ]
   },
   "packageFolders": {
-    "/home/lyubo/.nuget/packages/": {},
-    "/opt/dotnet/sdk/NuGetFallbackFolder": {}
+    "/home/lyubo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-36/Zadacha M1-36.csproj",
+      "projectUniqueName": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/Zadacha M1-36.csproj",
       "projectName": "Zadacha M1-36",
-      "projectPath": "/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-36/Zadacha M1-36.csproj",
+      "projectPath": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/Zadacha M1-36.csproj",
       "packagesPath": "/home/lyubo/.nuget/packages/",
-      "outputPath": "/home/lyubo/Documents/Projects/MG/Informatics/Zadacha M1-36/obj/",
+      "outputPath": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/Zadacha M1-36/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "/opt/dotnet/sdk/NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "/home/lyubo/.nuget/NuGet/NuGet.Config"
       ],

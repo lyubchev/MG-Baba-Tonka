@@ -693,11 +693,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array Multiplication/2D Array Multiplication.csproj",
+      "projectUniqueName": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/2D Array Multiplication/2D Array Multiplication.csproj",
       "projectName": "2D Array Multiplication",
-      "projectPath": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array Multiplication/2D Array Multiplication.csproj",
+      "projectPath": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/2D Array Multiplication/2D Array Multiplication.csproj",
       "packagesPath": "/home/lyubo/.nuget/packages/",
-      "outputPath": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/2D Array Multiplication/obj/",
+      "outputPath": "/home/lyubo/Projects/MG-Baba-Tonka/Informatics/Zadachi za vakanciqta/2D Array Multiplication/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/lyubo/.nuget/NuGet/NuGet.Config"
