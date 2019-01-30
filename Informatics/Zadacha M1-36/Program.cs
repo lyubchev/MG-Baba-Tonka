@@ -25,11 +25,11 @@ namespace Zadacha_M1_36
             for (int i = 0; i < n; i++)
             {
                 // Predpolagam che sa imali predvid < 0
-                if (a[i] < 0 && b[i] < 0)
+                if (a[i] != 0 && b[i] != 0)
                 {
                     c[i] = a[i] * b[i];
                 }
-                else if (a[i] == 0 && b[i] == 0)
+                else if (a[i] == 0 || b[i] == 0)
                 {
                     c[i] = 1;
                 }
