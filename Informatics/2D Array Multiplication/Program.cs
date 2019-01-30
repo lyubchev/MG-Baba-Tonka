@@ -8,15 +8,24 @@ namespace _2D_Array_Multiplication
         // entry tochkata na programata ni
         static void Main(string[] args)
         {
-            double[,] arrA = {
-         { 1, 1, 1 },
-         { 1, 0, 1 },
-         { 1, 1, 1 },
-     };
 
-            double[,] arrB = {
-         { 10},{15},{5},
-     };
+            // zadavame nachalni stoinosti na 2te matrici
+
+            Console.WriteLine("Vuvedete obshtiq broi redove za matrica1");
+            int h = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Vuvedete obshtiq broi koloni za matrica1");
+            int w = Convert.ToInt32(Console.ReadLine());
+
+            double[,] arrA = new double[h, w];
+            arrA = InitMatrix(h, w);
+
+            Console.WriteLine("Vuvedete obshtiq broi redove za matrica2");
+            h = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Vuvedete obshtiq broi koloni za matrica2");
+            w = Convert.ToInt32(Console.ReadLine());
+
+            double[,] arrB = new double[h, w];
+            arrB = InitMatrix(h, w);
 
             // Poluchavame proizvedenieto ot 2te matrici
             double[,] product = UmnojiDvuizmerniteMasivi(arrA, arrB);
@@ -137,6 +146,20 @@ namespace _2D_Array_Multiplication
             }
             // vrushtame matrica
             return product;
+        }
+        static double[,] InitMatrix(int h, int w)
+        {
+            double[,] temp = new double[h, w];
+
+            for (int x = 0; x < h; ++x)
+            {
+                for (int y = 0; y < w; ++y)
+                {
+                    temp[x, y] = Convert.ToDouble(Console.ReadLine());
+                }
+            }
+
+            return temp;
         }
     }
 }
